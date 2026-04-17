@@ -1,0 +1,181 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+*.code-workspace
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Streamlit
+.streamlit/
+.streamlit_secret/
+
+# Databricks
+*.databricks
+.databricks/
+.databricks_notebooks/
+__builtins__/
+__pycache__/
+
+# Model Checkpoints
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.h5
+*.joblib
+*.onnx
+models/checkpoints/
+models/weights/
+checkpoints/
+
+# Data and Cache
+*.cache
+.cache/
+**/cache/
+*.pkl
+*.pickle
+data/raw/
+data/processed/
+*.parquet
+*.csv
+*.xlsx
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Large files (LFS)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Logs
+*.log
+logs/
+*.log.*
+debug.log
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+*.bak
+
+# Package manager files
+.pip-cache/
+requirements-lock.txt
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Documentation
+site/
+docs/_build/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Spark and Databricks specific
+metastore_db/
+spark-warehouse/
+.spark_local_dir/
+
+# DVC (Data Version Control)
+.dvc/
+.dvc.lock
+
+# MLflow
+mlruns/
+.mlflow/
+
+# Weights & Biases
+wandb/
+
+# Unit test / Coverage
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Output files
+output/
+results/
+predictions/
